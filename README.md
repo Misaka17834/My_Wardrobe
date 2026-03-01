@@ -2,7 +2,7 @@
 
 > ✨ 一个简洁优雅的衣物可视化管理程序
 
-[![Version](https://img.shields.io/badge/version-1.2.1-blue.svg)](https://github.com/)
+[![Version](https://img.shields.io/badge/version-1.2.3-blue.svg)](https://github.com/)
 [![Python](https://img.shields.io/badge/python-3.8+-green.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-orange.svg)](LICENSE)
 
