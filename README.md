@@ -7,48 +7,63 @@
 [![License](https://img.shields.io/badge/license-MIT-orange.svg)](LICENSE)
 
 ---
-
+##本程序为纯人工审查，AI赋能**bold text**
 ## 📖 项目简介
-**本程序为纯人工审查，AI赋能**
 
 **My Wardrobe** 是一款衣物数据统计助手———帮助你记录每一件衣物的各项数据，方便你在浩如烟海的网购平台选购合身的衣物！在未来，My Wardrobe还将支持多设备互联、接入AI一键生成今日热门穿搭、多语言混编实现更加现代化的交互界面、一键导出为excel离线保存……
 ## 🗺️ 开发路线
 
+---
+
 ## 📁 项目结构
 
+```
 Your_Wardrobe/
-├── 📄 main.py                  # 程序入口
-├── 📄 README.md                # 项目说明文档
+├── main.py                    # 程序入口
+├── README.md                  # 项目说明文档
 │
-├── 📁 config/                  # 配置模块
-│   ├── 📄 about.py            # 项目信息（版本、作者等）
-│   └── 📄 config.py           # 路径和常量配置
+├── config/                    # 配置模块
+│   ├── about.py              # 项目信息（版本、作者等）
+│   └── config.py             # 路径和常量配置
 │
-├── 📁 core/                    # 核心功能
-│   └── 📄 db_operations.py    # 数据库操作
+├── core/                      # 核心功能
+│   └── db_operations.py      # 数据库操作
 │
-├── 📁 gui/                     # 界面模块
-│   ├── 📄 main_window.py      # 主窗口
-│   ├── 📄 settings_window.py  # 设置窗口
-│   └── 📄 photo_viewer.py     # 照片查看器
+├── gui/                       # 界面模块
+│   ├── main_window.py        # 主窗口
+│   ├── settings_window.py    # 设置窗口
+│   └── photo_viewer.py       # 照片查看器
 │
-├── 📁 userdata/                # 用户数据
-│   ├── 📁 general_config/     # 通用配置
-│   │   └── 📄 main_window_config.json
+├── userdata/                  # 用户数据
+│   ├── general_config/       # 通用配置
+│   │   └── main_window_config.json
 │   │
-│   └── 📁 [衣柜名称]/         # 单个衣柜数据
-│       ├── 📄 [衣柜名].db     # SQLite数据库
-│       ├── 📁 config/         # 衣柜配置
-│       │   ├── 📄 ui_config.json
-│       │   └── 📄 column_widths.json
-│       └── 📁 images/         # 衣物图片
-│           └── 📄 clothes_xxxx.jpg
+│   └── {衣柜名称}/           # 单个衣柜数据
+│       ├── {衣柜名}.db       # SQLite数据库
+│       ├── config/           # 衣柜配置
+│       │   ├── ui_config.json
+│       │   └── column_widths.json
+│       └── images/           # 衣物图片
+│           └── clothes_xxxx.jpg
 │
-└── 📁 preview/                 # 预览截图
-├── 📄 1.png
-├── 📄 2.png
-├── 📄 3.png
-└── 📄 4.png
+└── preview/                   # 预览截图
+    ├── 1.png
+    ├── 2.png
+    ├── 3.png
+    └── 4.png
+```
+
+## 🗂️ 模块说明
+
+| 目录 | 说明 |
+|:---|:---|
+| `config/` | 项目配置信息，包括版本号、路径配置等 |
+| `core/` | 核心业务逻辑，数据库增删改查操作 |
+| `gui/` | 所有界面相关的代码，使用 tkinter/ttkbootstrap |
+| `userdata/` | 用户数据存储，每个衣柜独立文件夹 |
+| `preview/` | 项目预览截图，用于 README 展示 |
+
+---
 
 ### ✅ 已完成
 
