@@ -1,5 +1,5 @@
-VERSION = "1.2.1"
+VERSION = "1.2.3"
 PROJECT_NAME = "Your Wardrobe"
-PROJECT_URL = "https://github.com/"
+PROJECT_URL = "https://github.com/Misaka17834/My_Wardrobe/edit/main/Your_Wardrobe"
 AUTHOR = "Trae_CN&坂坂御"
 DESCRIPTION = "一个简洁的衣物可视化程序"
