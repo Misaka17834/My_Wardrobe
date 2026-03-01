@@ -1,6 +1,6 @@
 # 👔 My_Wardrobe
 
-> ✨ 一个简洁优雅的衣物可视化管理程序
+> ✨ 一个简洁优雅的衣物可视化统计程序
 
 [![Version](https://img.shields.io/badge/version-1.2.3-blue.svg)](https://github.com/)
 [![Python](https://img.shields.io/badge/python-3.8+-green.svg)](https://www.python.org/)
