@@ -7,7 +7,7 @@
 [![License](https://img.shields.io/badge/license-MIT-orange.svg)](LICENSE)
 
 ---
-##本程序为纯人工审查，AI赋能**bold text**
+## **本程序为纯人工审查，AI赋能**
 ## 📖 项目简介
 
 **My Wardrobe** 是一款衣物数据统计助手———帮助你记录每一件衣物的各项数据，方便你在浩如烟海的网购平台选购合身的衣物！在未来，My Wardrobe还将支持多设备互联、接入AI一键生成今日热门穿搭、多语言混编实现更加现代化的交互界面、一键导出为excel离线保存……
