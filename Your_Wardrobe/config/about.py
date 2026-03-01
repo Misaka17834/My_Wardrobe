@@ -1,0 +1,5 @@
+VERSION = "1.2.1"
+PROJECT_NAME = "Your Wardrobe"
+PROJECT_URL = "https://github.com/"
+AUTHOR = "Trae_CN&坂坂御"
+DESCRIPTION = "一个简洁的衣物可视化程序"
